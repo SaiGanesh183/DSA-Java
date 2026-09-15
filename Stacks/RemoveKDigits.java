@@ -1,3 +1,5 @@
+import java.util.Stack;
+
 class Solution {
     public String removeKdigits(String num, int k) {
         Stack<Character> st= new Stack<>();

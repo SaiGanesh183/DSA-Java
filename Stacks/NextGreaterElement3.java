@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 class Solution {
     public int nextGreaterElement(int n) {
         char[] arr = String.valueOf(n).toCharArray();
