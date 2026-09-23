@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 class Solution {
     public boolean helper(int curr,  ArrayList<Integer>[] adj, boolean[] vis, boolean pathvis[]) {
         vis[curr]=true;
